@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>MiniBoss-Kids Clothing</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>About Us</title>
 </head>
+
 <body>
+
     <section class="topnav">
 
         <nav class="navbar navbar-expand-lg bg-light">
@@ -19,7 +24,7 @@
                   </a>
                 </div>
               </nav>
-
+    
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Welcome to MiniBoss!</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,22 +35,30 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="home.html">Home</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About Us</a>
-                  </li>
+    
                   <!--dropdown is not working-->
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" 
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Shop
                     </a>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Baby</a></li>
-                        <li><a class="dropdown-item" href="#">Toddler Boy</a></li>
-                        <li><a class="dropdown-item" href="#">Toddler Girl</a></li>
-                        <li><a class="dropdown-item" href="#">Boy</a></li>
-                        <li><a class="dropdown-item" href="#">Girl</a></li>
+                        <li><a class="dropdown-item" href="./categories.html">Baby</a></li>
+                        <li><a class="dropdown-item" href="./categories.html"">Toddler Boy</a></li>
+                        <li><a class="dropdown-item" href="./categories.html"">Toddler Girl</a></li>
+                        <li><a class="dropdown-item" href="./categories.html"">Boy</a></li>
+                        <li><a class="dropdown-item" href="./categories.html"">Girl</a></li>
                         </ul>
                   </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                  
                   <li class="nav-item">
                     <a class="nav-link">Help</a>
                   </li>
@@ -56,7 +69,7 @@
                 </form>
               </div>
             </div>
-
+    
             <nav class="navbar bg-light">
                 <div class="container">
                   <a class="navbar-brand" href="#">
@@ -67,35 +80,176 @@
           </nav>
     </section>
 
-    <section class="aboutus">
-      <div class="rounded float-end badge bg-warning text-wrap lh-base fs-6" style="width: 30rem;">
-        <h5>Our Story</h5>
-          <p>Pink for girls, blue for boys. Clothes for girls are tighter. Quality only if you spend a fortune. And slogans on everything, telling kids who they are, and what they should be.
-          <br>MiniBoss is here to make a change:
-          Every color and size for every kid. With no labels and no slogans. Super soft and sustainable fabrics, for clothes that all play together. And all backed by the kind of customer service you thought didn’t exist.
-          </p>
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h2>Our Story</h2>
+            <div><p>Pink for girls, blue for boys. Clothes for girls are tighter. Quality only if you spend a fortune. And slogans on everything, telling kids who they are, and what they should be. MiniBoss is here to make a change: Every color and size for every kid. With no labels and no slogans. Super soft and sustainable fabrics, for clothes that all play together. And all backed by the kind of customer service you thought did not exist.</p></div>
           </div>
-      <img src="img/aboutus/make.jpg" class="rounded float-start" alt="makeclothes" width="500" height="400">
-          
-      
-      <img src="img/aboutus/cotton.jpg" class="rounded float-start" alt="cotton" width="500" height="400">
-      <div class="rounded float-end badge bg-warning text-wrap lh-base fs-6" style="width: 30rem;">
-        <h5>Our Product</h5>  
-        Cotton is known for its versatility, performance and natural comfort.
-            Cotton’s strength and absorbency makes it an ideal fabric to make clothes and homewares, and industrial products like tarpaulins, tents, hotel sheets, army uniforms, and even astronauts’ clothing choices when inside a space shuttle. Cotton fibre can be woven or knitted into fabrics including velvet, corduroy, chambray, velour, jersey and flannel.
+          <div class="col">
+            <img class="img-fluid" src="./img/aboutus/make.jpg" alt="Kid clothing">
+          </div>
         </div>
+        <div class="row">
+          <div class="col">
+            <img class="img-fluid" src="./img/aboutus/cotton.jpg" alt="Kid clothing">
+          </div>
+          <div class="col">
+            <h2>Our Product</h2>
+            <div><p>Cotton is known for its versatility, performance and natural comfort. Cotton’s strength and absorbency makes it an ideal fabric to make clothes and homewares, and industrial products like tarpaulins, tents, hotel sheets, army uniforms, and even astronauts’ clothing choices when inside a space shuttle. Cotton fibre can be woven or knitted into fabrics including velvet, corduroy, chambray, velour, jersey and flannel.</p></div>
+          </div>
 
-        
-        <img src="img/aboutus/poor.jpg" class="rounded float-start" alt="poor" width="500" height="300">
-        <div class="rounded float-end badge bg-warning text-wrap lh-base fs-6" style="width: 30rem;">
-            <h4>Our Impact</h4>
-            <br>
-            <p>MiniBoss dede</p>
-           </div>
+        </div>
+      </div>
 
-    </section>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <footer class="bg-warning text-center text-lg-start text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row my-4">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+    
+              <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+                <img src="img/home/logo.png" height="100" alt="logo"
+                     loading="lazy" />
+              </div>
+    
+       <!-- Section: Form -->
+       <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" value="Enter Email"/>
+                <label class="form-label" for="form5Example2"></label>
+              </div>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+    
+    
+    
+              <ul class="list-unstyled d-flex flex-row justify-content-center">
+                <li>
+                  <a class="text-white px-2" href="#!">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white px-2" href="#!">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white ps-2" href="#!">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+    
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">Menu</h5>
+    
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="home.html" class="text-white"><i class="fas fa-paw pe-3"></i>Home</a>
+                </li>
+                <li class="mb-2">
+                  <a href="./categories.html" class="text-white"><i class="fas fa-paw pe-3"></i>Shop</a>
+                </li>
+                <li class="mb-2">
+                  <a href="aboutus.html" class="text-white"><i class="fas fa-paw pe-3"></i>About us</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Help</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">MiniBoss</h5>
+    
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Privacy and Terms</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Career</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Contact Us</a>
+                </li>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">Contact</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <p><i class="fas fa-map-marker-alt pe-2"></i>123 Street</p>
+                </li>
+                <li>
+                  <p><i class="fas fa-phone pe-2"></i>555-555-5555</p>
+                </li>
+                <li>
+                  <p><i class="fas fa-envelope pe-2 mb-0"></i>contact@example.com</p>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2022 Copyright:
+          <a class="text-white" href="#">MiniBoss</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
