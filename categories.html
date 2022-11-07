@@ -22,67 +22,68 @@
   <section class="topnav">
 
     <nav class="navbar navbar-expand-lg bg-light">
-        <nav class="navbar bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="img/home/logo.png" alt="logo" width="60" height="60">
-              </a>
-            </div>
-          </nav>
-
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Welcome to MiniBoss!</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-              </li>
-
-              <!--dropdown is not working-->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" 
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Shop
-                </a>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./categories.html"">Baby</a></li>
-                    <li><a class="dropdown-item" href="./categories.html"">Toddler Boy</a></li>
-                    <li><a class="dropdown-item" href="./categories.html"">Toddler Girl</a></li>
-                    <li><a class="dropdown-item" href="./categories.html"">Boy</a></li>
-                    <li><a class="dropdown-item" href="./categories.html"">Girl</a></li>
-                    </ul>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="aboutus.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link">Help</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+      <nav class="navbar bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/home/logo.png" alt="logo" width="60" height="60">
+          </a>
         </div>
-
-        <nav class="navbar bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="img/home/bag.png" alt="shoppingbag" width="60" height="60">
-              </a>
-            </div>
-          </nav>
       </nav>
-</section>
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Welcome to MiniBoss!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+
+            <!--dropdown is not working-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./categories.html">Baby</a></li>
+                <li><a class="dropdown-item" href="./categories.html">Toddler Boy</a></li>
+                <li><a class="dropdown-item" href="./categories.html">Toddler Girl</a></li>
+                <li><a class="dropdown-item" href="./categories.html">Boy</a></li>
+                <li><a class="dropdown-item" href="./categories.html">Girl</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link">Help</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+
+      <nav class="navbar bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/home/bag.png" alt="shoppingbag" width="60" height="60">
+          </a>
+        </div>
+      </nav>
+    </nav>
+  </section>
 
   <main>
 
@@ -145,19 +146,20 @@
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
             <li><a class="dropdown-item" href="#">Boys</a></li>
             <li><a class="dropdown-item" href="#">Girls</a></li>
-            
+
           </ul>
         </div>
 
 
       </div>
+
       <div class="justify-self-center">
         <div class="container">
-          <div class="row">
+          <div class="row" id="list-items">
             <div class="col col-12 col-md-6 col-xl-4">
               <div class="card product mb-5 mx-1">
                 <img
-                  src="https://images.unsplash.com/photo-1563720348905-20a2dcd9f4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=712&q=80"
+                  src="./img/products/pic1.jpg"
                   class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-danger">$26.97</h5>
@@ -173,7 +175,7 @@
             <div class="col col-12 col-md-6 col-xl-4">
               <div class="card product mb-5 mx-1">
                 <img
-                  src="https://images.unsplash.com/photo-1563720348905-20a2dcd9f4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=712&q=80"
+                  src="./img/products/pic2.jpg"
                   class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-danger">$9.98</h5>
@@ -189,7 +191,7 @@
             <div class="col col-12 col-md-6 col-xl-4">
               <div class="card product mb-5 mx-1">
                 <img
-                  src="https://images.unsplash.com/photo-1563720348905-20a2dcd9f4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=712&q=80"
+                  src="./img/products/pic3.jpg"
                   class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-danger">$14.78</h5>
@@ -205,7 +207,7 @@
             <div class="col col-12 col-md-6 col-xl-4">
               <div class="card product mb-5 mx-1">
                 <img
-                  src="https://images.unsplash.com/photo-1563720348905-20a2dcd9f4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=712&q=80"
+                  src="./img/products/pic4.jpg"
                   class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-danger">$13.18</h5>
@@ -221,7 +223,7 @@
             <div class="col col-12 col-md-6 col-xl-4">
               <div class="card product mb-5 mx-1">
                 <img
-                  src="https://images.unsplash.com/photo-1563720348905-20a2dcd9f4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=712&q=80"
+                  src="./img/products/pic5.jpg"
                   class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-danger">$11.48</h5>
@@ -238,7 +240,7 @@
             <div class="col col-12 col-md-6 col-xl-4">
               <div class="card product mb-5 mx-1">
                 <img
-                  src="https://images.unsplash.com/photo-1563720348905-20a2dcd9f4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=712&q=80"
+                  src="./img/products/pic6.jpg"
                   class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-danger">$4.99</h5>
@@ -255,7 +257,7 @@
             <div class="col col-12 col-md-6 col-xl-4">
               <div class="card product mb-5 mx-1">
                 <img
-                  src="https://images.unsplash.com/photo-1563720348905-20a2dcd9f4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=712&q=80"
+                  src="./img/products/pic7.jpg"
                   class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-danger">$19.98</h5>
@@ -271,7 +273,7 @@
             <div class="col col-12 col-md-6 col-xl-4">
               <div class="card product mb-5 mx-1">
                 <img
-                  src="https://images.unsplash.com/photo-1563720348905-20a2dcd9f4b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=712&q=80"
+                  src="./img/products/pic8.jpg"
                   class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-danger">$16.48</h5>
@@ -283,6 +285,27 @@
                 </div>
               </div>
             </div>
+
+            <div class="col col-12 col-md-6 col-xl-4">
+              <div class="card product mb-5 mx-1">
+                <img
+                  src="./img/products/pic9.jpg"
+                  class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-danger">$16.48</h5>
+                  <p class="card-text">Snowflake Knit To Woven Dress</p>
+                  <div class="text-center mt-5">
+                    <a href="#" class="btn btn-warning">Add to Card</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            
+
+            
+            
 
 
 
@@ -307,47 +330,48 @@
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 
-          <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
-            <img src="img/home/logo.png" height="100" alt="logo"
-                 loading="lazy" />
+          <div
+            class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+            style="width: 150px; height: 150px;">
+            <img src="img/home/logo.png" height="100" alt="logo" loading="lazy" />
           </div>
 
-   <!-- Section: Form -->
-   <section class="">
-    <form action="">
-      <!--Grid row-->
-      <div class="row d-flex justify-content-center">
-        <!--Grid column-->
-        <div class="col-auto">
-          <p class="pt-2">
-            <strong>Sign up for our newsletter</strong>
-          </p>
-        </div>
-        <!--Grid column-->
+          <!-- Section: Form -->
+          <section class="">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
 
-        <!--Grid column-->
-        <div class="col-md-5 col-12">
-          <!-- Email input -->
-          <div class="form-outline form-white mb-4">
-            <input type="email" id="form5Example2" class="form-control" value="Enter Email"/>
-            <label class="form-label" for="form5Example2"></label>
-          </div>
-        </div>
-        <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example2" class="form-control" value="Enter Email" />
+                    <label class="form-label" for="form5Example2"></label>
+                  </div>
+                </div>
+                <!--Grid column-->
 
-        <!--Grid column-->
-        <div class="col-auto">
-          <!-- Submit button -->
-          <button type="submit" class="btn btn-outline-light mb-4">
-            Subscribe
-          </button>
-        </div>
-        <!--Grid column-->
-      </div>
-      <!--Grid row-->
-    </form>
-  </section>
-  <!-- Section: Form -->
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
 
 
 
@@ -447,8 +471,9 @@
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
 
-  <script src="./js/itemsController.js"></script>
+  <script type="module" src="./js/itemsController.js"></script>
   <script src="./js/index.js"></script>
+  <script type="module" src="./js/items.js"></script>
 
 
 

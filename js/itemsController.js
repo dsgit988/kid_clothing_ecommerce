@@ -4,17 +4,33 @@ class ItemsController{
         this.currentId = currentId;
     }
 
-    addItem(name, description, img, createdAt){
+    addItem(name, description, img, price, createdAt){
         const item = {
             id: this.currentId++,
             name: name,
             description: description,
-            img: img,
-            createdAt: createdAt            
+            img: img,            
+            price: price,
+            createdAt: createdAt
+
         }
         this.items.push(item);
+        
+    }
+
+    loadProductsFromLocalStorage() {
+        const storeProducts = localStorage.getItem("products")
+        if (storeProducts) {
+            const products = JSON.parse(storeProducts)
+            for (let i = 0, size = products.length; i < size; i++) {
+                const product = products[i];
+                this.items.push(product);
+            }
+        }
     }
 }
+
+export {ItemsController};
 
 
 //testing
