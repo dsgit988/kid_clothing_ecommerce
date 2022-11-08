@@ -48,7 +48,8 @@ function loadSampleProducts() {
             },
     
         ];
-    
+        
+
         localStorage.setItem("products", JSON.stringify(sampleProducts));
     }
 
