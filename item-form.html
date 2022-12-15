@@ -124,16 +124,81 @@
                 <div class="col-sm-10">
                     <input type="date" class="form-control" id="date" placeholder="Please choose a date" required>
                 </div>
+            </div>        
+ 
+            <div class="form-group row m-3">
+                <div class="col-sm-10">
+                    <button type="submit" id="newItemSubmit" class="btn btn-primary">Add Product</button>
+                </div>
+            </div>
+        </form>
+
+
+        <h1 class="m-3">Please update a product below</h1>
+        <form action="#" id="updateProductForm">
+            <div class="form-group row m-3">
+                <label for="idToUpdate" class="col-sm-2 col-form-label">ID: </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="idToUpdate" placeholder="Please input product ID" required>
+                </div>
+            </div>
+
+            <div class="form-group row m-3">
+                <label for="nameToUpdate" class="col-sm-2 col-form-label">Name: </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="nameToUpdate" placeholder="Please input product name" required>
+                </div>
+            </div>
+
+            <div class="form-group row m-3">
+                <label for="descriptionToUpdate" class="col-sm-2 col-form-label">Description: </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="descriptionToUpdate" placeholder="Please input product description" required>
+                </div>
+            </div>
+
+            <div class="form-group row m-3">
+                <label for="imageToUpdate" class="col-sm-2 col-form-label">Image: </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="imageToUpdate" placeholder="Please input product image path" required>
+                </div>
+            </div>
+
+            <div class="form-group row m-3">
+                <label for="priceToUpdate" class="col-sm-2 col-form-label">Price: </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="priceToUpdate" placeholder="Please input product price" required>
+                </div>
+            </div>
+
+            <div class="form-group row m-3">
+                <label for="dateToUpdate" class="col-sm-2 col-form-label">Date: </label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="dateToUpdate" placeholder="Please choose a date" required>
+                </div>
+            </div>        
+ 
+            <div class="form-group row m-3">
+                <div class="col-sm-10">
+                    <button type="submit" id="updateItemSubmit" class="btn btn-primary">Update Product</button>
+                </div>
+            </div>
+        </form>
+
+        <h1 class="m-3">Please delete a product below</h1>
+        <form action="#" id="deleteProductForm">
+            <div class="form-group row m-3">
+                <label for="idToDelete" class="col-sm-2 col-form-label">ID: </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="idToDelete" placeholder="Please input product ID" required>
+                </div>
             </div>
 
             
-      
-
-
-
+ 
             <div class="form-group row m-3">
                 <div class="col-sm-10">
-                    <button type="submit" id="newItemSubmit" class="btn btn-primary">Submit</button>
+                    <button type="submit" id="deleteItemSubmit" class="btn btn-primary">Delete Product</button>
                 </div>
             </div>
         </form>
